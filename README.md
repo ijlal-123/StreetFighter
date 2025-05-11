@@ -1,16 +1,11 @@
 
-# 🕹️ Street Fighter II Reinforcement Learning Agent
+# Street Fighter II Reinforcement Learning Agent
 
 This project implements a reinforcement learning agent trained to play **Street Fighter II** using the **Proximal Policy Optimization (PPO)** algorithm. The environment is built using [Gym-Retro](https://github.com/openai/retro), and training is done using [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3).
 
 ---
 
-## 📽️ Demo
-👉 *Coming soon: Video of the trained agent defeating the AI opponent!*
-
----
-
-## 📌 Project Overview
+## Project Overview
 
 - **Game**: Street Fighter II (Champion Edition)
 - **AI Approach**: Proximal Policy Optimization (PPO)
@@ -19,7 +14,7 @@ This project implements a reinforcement learning agent trained to play **Street 
 
 ---
 
-## 🧠 Reinforcement Learning Setup
+## Reinforcement Learning Setup
 
 - **Algorithm**: PPO (Stable-Baselines3)
 - **Observation Space**: Downsampled game frames or custom game-specific features
@@ -33,7 +28,7 @@ This project implements a reinforcement learning agent trained to play **Street 
 
 ---
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -55,25 +50,16 @@ pip install gym-retro
 python -m retro.import ./roms/
 ```
 
-> 📁 Place your `StreetFighterII.smc` ROM file inside the `roms/` directory.
-
----
-
-## 🏃‍♂️ Running the Agent
+## Running the Agent
 
 ### Train the PPO Agent
-
+  Run on terminal after opening the root folder:
 ```bash
-python train_agent.py
+pyhton sf2_env.py
+python train.py
+python play.py 
 ```
 
-### Evaluate the Trained Model
-
-```bash
-python evaluate_agent.py
-```
-
----
 
 ## 📊 Results
 
