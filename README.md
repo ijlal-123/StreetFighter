@@ -61,7 +61,7 @@ python play.py
 ```
 
 
-## 📊 Results
+## Results
 
 After training for several million steps, the agent achieved:
 
@@ -71,7 +71,7 @@ After training for several million steps, the agent achieved:
 
 ---
 
-## 👥 Team Members
+## Team Members
 
 - **Ijlal Iqbal (22K-5034)** – PPO implementation and training logic  
 - **Huzefa Saifuddin (22K-5125)** – Environment setup, Gym-Retro integration  
@@ -79,7 +79,7 @@ After training for several million steps, the agent achieved:
 
 ---
 
-## 📚 References
+## References
 
 - [OpenAI Gym Retro](https://github.com/openai/retro)
 - [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)
@@ -88,6 +88,6 @@ After training for several million steps, the agent achieved:
 
 ---
 
-## 📄 License
+## License
 
 MIT License. See `LICENSE` file for details.
